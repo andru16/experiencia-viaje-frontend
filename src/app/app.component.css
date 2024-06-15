@@ -1,0 +1,12 @@
+.btn-siguiente {
+  color: #007bff;
+  border: 1px !important;
+  border-color: #007bff !important;
+  border-style: solid !important;
+}
+
+.btn-siguiente:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff !important;
+}

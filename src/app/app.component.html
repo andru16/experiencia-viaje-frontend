@@ -1,0 +1,5 @@
+<div NgIf="pasoActual == 1" class="d-flex justify-content-end mb-4">
+  <button type="button" class="btn btn-sm btn-siguiente fs-6" (click)="historialBusqueda()">Historial de busquedas</button>
+</div>
+<router-outlet />
+<botones-navegacion class="mt-5" NgIf="isCurrentRouteBlocked()"></botones-navegacion>

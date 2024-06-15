@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-6 mb-2">
+    <ng-select
+      [items]="paises"
+      bindLabel="nombre"
+      bindValue="id"
+      placeholder="Seleccione un país"
+      [(ngModel)]="paisSeleccionado"
+      (change)="obtenerCiudades(paisSeleccionado)">
+    </ng-select>
+  </div>
+  <div class="col-6 mb-2" >
+    <ng-select
+      [items]="ciudades"
+      bindLabel="nombre"
+      bindValue="id"
+      placeholder="Seleccione una ciudad"
+      [(ngModel)]="ciudadSeleccionada"
+      [disabled]="!paisSeleccionado"
+      (change)="actualizarDatosPaso()">
+    </ng-select>
+  </div>
+</div>

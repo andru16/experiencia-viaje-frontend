@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../public/assets/plugins/custom/fullcalendar/fullcalendar.bundle.css';
+@import '../public/assets/plugins/custom/datatables/datatables.bundle.css';
+@import '../public/assets/plugins/global/plugins.bundle.css';
+@import '../public/assets/css/style.bundle.css';
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/@ng-select/ng-select/themes/material.theme.css';

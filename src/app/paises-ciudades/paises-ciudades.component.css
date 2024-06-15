@@ -1,0 +1,9 @@
+/* Estilo para el primer option */
+select.form-select.form-select-sm option:first-child {
+  color: #888; /* Color del texto del placeholder */
+}
+
+/* Estilo para el campo select cuando está vacío */
+select.form-select.form-select-sm:empty {
+  color: #888; /* Color del texto del placeholder */
+}
